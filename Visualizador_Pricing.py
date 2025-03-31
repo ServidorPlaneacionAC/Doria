@@ -21,5 +21,5 @@ class CLS_Visualizacion_pricing:
             df_vehiculos = pd.read_excel(archivo_usuario, sheet_name="vehiculos")
             parametrosWA = pd.read_excel(archivo_usuario, sheet_name="vehiculos")
             
-        if st.button('Optimizar EVA'):
-            optimizar = 'EVA'
+        if st.button('Evaluar'):
+            st.write('como ver la actualización')
