@@ -8,9 +8,9 @@ class CLS_Estructura_Visualizacion:
     clase que permite ser la estrutura inicial de la visualización en streamlit, primer paso en la estandarización de desarrollos 
     '''
     def __init__(self) -> None:
-      self.mostrar_navegabilidad(["Inicio", "Archivos de muestra"])
+      self.mostrar_navegabilidad(["Inicio"])
       
-    def mostrar_navegabilidad(self,paginas=["Inicio", "Archivos de muestra"]):
+    def mostrar_navegabilidad(self,paginas=["Inicio"]):
         '''
         Genera el slider que permite navegar entre interfaces del desarrollo
 
@@ -22,8 +22,8 @@ class CLS_Estructura_Visualizacion:
 
         if page == "Inicio":
             self.Mostrar_Pantalla_principal('Ingreso de datos')
-        elif page == "Archivos de muestra":
-            self.Mostrar_Pantalla_variacion_costos('Archivos de muestra')
+        # elif page == "Archivos de muestra":
+        #     self.Mostrar_Pantalla_variacion_costos('Archivos de muestra')
         # elif page=="¿Cómo funciona?":
         #     self.Mostrar_Pantalla_como_funciona('¿Cómo funciona?')
       
