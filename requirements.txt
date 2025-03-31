@@ -1,6 +1,0 @@
-streamlit
-scipy
-mplcursors
-plotly
-matplotlib
-openpyxl
